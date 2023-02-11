@@ -1,5 +1,6 @@
 import React from 'react'
 import handheart from '../../src/Assets/handheart.svg'
+import { Link } from 'react-router-dom';
 
 const SigninP = () => {
   return (
@@ -30,7 +31,7 @@ const SigninP = () => {
             <div className='font-spectral flex flex-row'>
                 Don't have an account? 
                 <div className='text-[#22C1DC] mx-2'> 
-                    Sign Up
+                    <Link to="/signup"><button>Sign Up</button></Link>
                 </div>
             </div>
         </div>

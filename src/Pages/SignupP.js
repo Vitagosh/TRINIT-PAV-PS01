@@ -1,5 +1,6 @@
 import React from 'react'
 import handheart from '../../src/Assets/handheart.svg'
+import { Link } from 'react-router-dom';
 
 const SigninP = () => {
   return (
@@ -37,11 +38,10 @@ const SigninP = () => {
             <div className= 'rounded-lg bg-[#F0AB20] cursor-pointer px-8 py-2 my-2 w-[60vh] text-[#18345E] font-spectral font-medium'>
                 Sign In
             </div>
-            <input type="email"></input>
             <div className='font-spectral flex flex-row'>
                 Already a member? 
                 <div className='text-[#22C1DC] mx-2 font-bold'> 
-                    Sign In
+                    <Link to="/signin"><button>Sign In</button></Link>
                 </div>
             </div>
         </div>

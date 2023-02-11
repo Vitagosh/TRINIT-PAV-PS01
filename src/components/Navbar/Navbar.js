@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import { Link } from 'react-router-dom';
 import logo from "../../Assets/logo.svg";
 const Navbar= () =>{
   
@@ -12,7 +13,7 @@ const Navbar= () =>{
     <div>Events and News</div>
     <div>Get Involved</div>
     <div className= 'px-2 py-2 rounded-lg bg-yellow-500'> 
-      Donate
+      <Link to="/signin"><button >Donate</button></Link>
     </div>
     </div>
     
