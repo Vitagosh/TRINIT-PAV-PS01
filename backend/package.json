@@ -1,0 +1,25 @@
+{
+  "name": "betheone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Vinay Sonkusale",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1313.0",
+    "bcryptjs": "^2.4.3",
+    "cassandra-driver": "^4.6.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-cassandra": "^2.8.0",
+    "express-validator": "^6.14.3",
+    "nodemon": "^2.0.20",
+    "serverless-http": "^3.1.1",
+    "uuid": "^9.0.0"
+  }
+}
